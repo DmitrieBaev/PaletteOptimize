@@ -3,14 +3,17 @@ Raster palette optimization
 
 ## Prewiew
 Original image:
-![original_img]()
+![original_img](res/0_original.bmp)
 
-Quantized image:
-![quantized_img]()
+Quantized image to _7 colors in palette_:
+![quantized_img](res/1_quantized.jpg)
 
 ### Usage
 ```
 python main.py path_to_file color_count
-
-python main.py d:\img.jpg 8
 ```
+> __path_to_file__
+>> You can use the same directory as the image path. In this case, you should write only filename. Or write the absolute path to the image file.
+
+> __color_count__
+>> This parameter is responsible for the number of colors in the resulting image palette.
