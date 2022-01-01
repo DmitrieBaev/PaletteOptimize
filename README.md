@@ -2,11 +2,11 @@
 Raster palette optimization
 
 ## Prewiew
-Original image:
 ![original_img](res/0_original.bmp)
+Original image
 
-Quantized image to _7 colors in palette_:
 ![quantized_img](res/1_quantized.jpg)
+Quantized image to _7 colors in palette_
 
 ### Usage
 ```
