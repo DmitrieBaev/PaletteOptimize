@@ -22,5 +22,6 @@ def quantization(img, k):
 
 if __name__ == '__main__':
     input_img = cv2.imread(pathlib.Path(sys.argv[1]))
-    output_img = quantization(input_img, int(sys.argv[2]))
-    cv2.imwrite(f'quantized.jpg', output_img)
+    kcolor = int(sys.argv[2])
+    output_img = quantization(input_img, kcolor)
+    cv2.imwrite(f'quantized_{kcolor}.jpg', output_img)
